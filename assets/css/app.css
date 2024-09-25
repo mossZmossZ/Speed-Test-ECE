@@ -63,13 +63,14 @@ font-weight: 500;
   color: rgb(113, 113, 113);
 }
 .Credits a:hover {
-color: #14b0fe;
+color: #f76f00;
 }
 
 .ConnectError {
   display: none;
 
 }
+
 
 .openSpeedtestApp {
  
@@ -186,7 +187,7 @@ color: #14b0fe;
 }
 
 .intro-Progress {
-  stroke: #56c4fb;
+  stroke: #f76f00;
   stroke-width: 8px;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -194,7 +195,7 @@ color: #14b0fe;
   stroke-dashoffset: 0;
 }
 .progressElmstart {
-  stroke: #56c4fb;
+  stroke: #f76f00;
   stroke-width: 8px;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -246,19 +247,19 @@ color: #14b0fe;
   text-anchor: end;
 }
 #upSymbolDesk {
-  fill: #14b0fe;
+  fill: #f76f00;
   display: none;
 }
 #downSymbolDesk {
-  fill: #14b0fe;
+  fill: #f76f00;
   display: none;
 }
 #upSymbolMob {
-  fill: #14b0fe;
+  fill: #f76f00;
   display: none;
 }
 #downSymbolMob {
-  fill: #14b0fe;
+  fill: #f76f00;
   display: none;
 }
 
@@ -290,7 +291,7 @@ color: #14b0fe;
 .spinner > div {
   width: 20px;
   height: 20px;
-  background-color: #2196f3;
+  background-color: #f76f00;
 
   border-radius: 100%;
   display: inline-block;
@@ -379,4 +380,22 @@ color: #14b0fe;
   .Credits{
     display: none;
   }
+/* Add this CSS rule to style the new text */
+#custom-logo {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: #4CAF50; /* Change the color as needed */
+  margin-top: 20px;
+  font-family: Arial, sans-serif; /* Customize the font */
+}
+
+/* Hide the OpenSpeedTest-UI object if it still shows up */
+#OpenSpeedTest-UI {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+
+  
 }

@@ -82,7 +82,7 @@ window.onload = function() {
     this.intro_Desk = _("intro-Desk");
     this.intro_Mob = _("intro-Mob");
     this.loader = _("loading_app");
-    this.OpenSpeedtest = _("OpenSpeedtest");
+    this.OpenSpeedtest = _("ECE-Speedtest");
     this.mainGaugebg_Desk = _("mainGaugebg-Desk");
     this.mainGaugeBlue_Desk = _("mainGaugeBlue-Desk");
     this.mainGaugeWhite_Desk = _("mainGaugeWhite-Desk");
@@ -859,7 +859,7 @@ window.onload = function() {
       }
     }
     var osttm = "\u2122";
-    var myname = "OpenSpeedTest";
+    var myname = "ECE-SpeedTest";
     var com = ".com";
     var ost = myname + osttm;
     function hiEnter(e) {
